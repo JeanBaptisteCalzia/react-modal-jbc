@@ -1,0 +1,39 @@
+{
+  "name": "react-modal-jbc",
+  "version": "1.0.0",
+  "description": "React component to display a custom modal",
+  "main": "dist/react-modal-jbc.jsx",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "react",
+    "modal",
+    "npm"
+  ],
+  "author": "JBC",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.26.8",
+    "@babel/preset-env": "^7.26.8",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "node-sass": "^9.0.0",
+    "sass": "^1.84.0",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2"
+  }
+}
