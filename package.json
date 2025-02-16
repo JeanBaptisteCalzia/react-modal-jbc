@@ -1,6 +1,6 @@
 {
   "name": "react-modal-jbc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component to display a custom modal",
   "main": "dist/react-modal-jbc.jsx",
   "scripts": {
@@ -26,7 +26,6 @@
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
   },
-
   "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
