@@ -42,7 +42,11 @@ function App() {
 export default App;
 ```
 
-## 4. Props
+## 4. Demo
+
+Online example on [CodePen](https://codepen.io/jbcalzia/pen/jEOOVJX)
+
+## 5. Props
 
 - `isShow`: Display a modal or not (Bool)
 - `isClose`: Close modal function (Func)
@@ -53,7 +57,8 @@ export default App;
 - `borderRadius`: Set Modal border radius in rem unit (String)
 - `children`: Display the content (JSX Element)
 
-## 5. Styles
+## 6. Styles
+
 For better visual render make sure to import the Bootstrap CSS file to apply the default styles :
 
 Run the following command :
@@ -63,6 +68,6 @@ Then import CSS to your main file : `import "bootstrap/dist/css/bootstrap.min.cs
 
 Then you can customize styles by overriding default CSS classes
 
-## 5. Author
+## 7. Author
 
 Jean-Baptiste Calzia
